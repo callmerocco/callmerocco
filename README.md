@@ -1,12 +1,6 @@
 <div align="center">
 
-# 👋
-
-<div>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=40&duration=3000&pause=1000&color=61dafb&background=0D1117&center=true&vCenter=true&width=400&height=80&lines=Hey+there%2C+I'm+Jackson)](https://git.io/typing-svg)
-
-</div>
+# 👋 Hey there, I'm Jackson
 
 > Crafting scalable backends and clean, robust code with **TypeScript** & **Node.js**
 
