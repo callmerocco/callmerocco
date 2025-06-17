@@ -26,11 +26,21 @@
 
 ### 🔥 About Me
 
-- 💻 Building **RESTful APIs** & **microservices** with scalability in mind  
-- ⚡ Writing clean, maintainable, test-driven code  
-- 🚀 Passionate about performance tuning & system scalability  
-- 🔧 Proficient with Docker, Prisma, Jest, and Git workflows  
-- 🎯 Lifelong learner exploring new tech & best practices  
+<div style="background:#0D1117; padding:12px; margin:8px 0; border-radius:8px; max-width:480px;">
+  💻 Building <b>RESTful APIs</b> & <b>microservices</b> with scalability in mind
+</div>
+<div style="background:#0D1117; padding:12px; margin:8px 0; border-radius:8px; max-width:480px;">
+  ⚡ Writing clean, maintainable, test-driven code
+</div>
+<div style="background:#0D1117; padding:12px; margin:8px 0; border-radius:8px; max-width:480px;">
+  🚀 Passionate about performance tuning & system scalability
+</div>
+<div style="background:#0D1117; padding:12px; margin:8px 0; border-radius:8px; max-width:480px;">
+  🔧 Proficient with Docker, Prisma, Jest, and Git workflows
+</div>
+<div style="background:#0D1117; padding:12px; margin:8px 0; border-radius:8px; max-width:480px;">
+  🎯 Lifelong learner exploring new tech & best practices
+</div>
 
 ---
 
@@ -43,18 +53,34 @@
 
 ### 💡 Currently Exploring
 
-- Advanced TypeScript patterns & generics  
-- Architecting scalable microservices  
-- Serverless & edge computing paradigms  
-- Cutting-edge testing frameworks like Vitest & Supertest  
+<div style="background:#0D1117; padding:12px; margin:8px 0; border-radius:8px; max-width:480px;">
+  Advanced TypeScript patterns & generics
+</div>
+<div style="background:#0D1117; padding:12px; margin:8px 0; border-radius:8px; max-width:480px;">
+  Architecting scalable microservices
+</div>
+<div style="background:#0D1117; padding:12px; margin:8px 0; border-radius:8px; max-width:480px;">
+  Serverless & edge computing paradigms
+</div>
+<div style="background:#0D1117; padding:12px; margin:8px 0; border-radius:8px; max-width:480px;">
+  Cutting-edge testing frameworks like Vitest & Supertest
+</div>
 
 ---
 
 ### 📫 Let's Connect
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/junoswift13)  
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/jbhale12)  
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/1219427867990036490)
+<div style="display:flex; justify-content:center; gap:16px; margin-top:12px;">
+  <a href="https://github.com/junoswift13" title="GitHub">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://twitter.com/jbhale12" title="Twitter">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+  </a>
+  <a href="https://discord.com/users/1219427867990036490" title="Discord">
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+  </a>
+</div>
 
 ---
 
