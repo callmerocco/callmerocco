@@ -1,13 +1,13 @@
 <div align="center">
 
-# 👋 Hey there, I'm Jackson
+# 👋 Hey, I’m Jackson
 
-> Crafting scalable backends and clean, robust code  
-> with **TypeScript** & **Node.js**
+I build backend stuff using TypeScript and Node.js.  
+I like to keep my code clean and easy to understand.
 
 ---
 
-### 🛠 Tech Stack
+### 🛠 Stuff I use
 
 <div>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
@@ -24,70 +24,42 @@
 
 ---
 
-### 🔥 About Me
+### 🔥 About me
 
-<div style="background:#0D1117; padding:12px; margin:8px 0; border-radius:8px; max-width:480px;">
-  💻 Building <b>RESTful APIs</b> & <b>microservices</b> with scalability in mind
-</div>
-<div style="background:#0D1117; padding:12px; margin:8px 0; border-radius:8px; max-width:480px;">
-  ⚡ Writing clean, maintainable, test-driven code
-</div>
-<div style="background:#0D1117; padding:12px; margin:8px 0; border-radius:8px; max-width:480px;">
-  🚀 Passionate about performance tuning & system scalability
-</div>
-<div style="background:#0D1117; padding:12px; margin:8px 0; border-radius:8px; max-width:480px;">
-  🔧 Proficient with Docker, Prisma, Jest, and Git workflows
-</div>
-<div style="background:#0D1117; padding:12px; margin:8px 0; border-radius:8px; max-width:480px;">
-  🎯 Lifelong learner exploring new tech & best practices
-</div>
+I’m focused on building APIs and backend systems that don’t break when things get busy.  
+I like writing code that’s easy to follow and fix later.  
+Always learning new things, trying to get better every day.
 
 ---
 
-### 📈 GitHub Stats
+### 📈 GitHub stuff
 
 <br />
 <img src="https://github-readme-stats.vercel.app/api?username=junoswift13&show_icons=true&theme=radical" alt="Jackson's GitHub Stats" width="400" />
 
 ---
 
-### 💡 Currently Exploring
+### 💡 What I’m working on now
 
-<div style="background:#0D1117; padding:12px; margin:8px 0; border-radius:8px; max-width:480px;">
-  Advanced TypeScript patterns & generics
-</div>
-<div style="background:#0D1117; padding:12px; margin:8px 0; border-radius:8px; max-width:480px;">
-  Architecting scalable microservices
-</div>
-<div style="background:#0D1117; padding:12px; margin:8px 0; border-radius:8px; max-width:480px;">
-  Serverless & edge computing paradigms
-</div>
-<div style="background:#0D1117; padding:12px; margin:8px 0; border-radius:8px; max-width:480px;">
-  Cutting-edge testing frameworks like Vitest & Supertest
-</div>
+- Getting better at TypeScript  
+- Making microservices work well together  
+- Checking out serverless stuff  
+- Testing tools that actually make life easier
 
 ---
 
-### 📫 Let's Connect
+### 📫 Find me here
 
-<div style="display:flex; justify-content:center; gap:16px; margin-top:12px;">
-  <a href="https://github.com/junoswift13" title="GitHub">
+<div style="display:flex; justify-content:center; gap:20px; margin-top:16px;">
+  <a href="https://github.com/junoswift13" title="GitHub" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <a href="https://twitter.com/jbhale12" title="Twitter">
+  <a href="https://twitter.com/jbhale12" title="Twitter" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
   </a>
-  <a href="https://discord.com/users/1219427867990036490" title="Discord">
+  <a href="https://discord.com/users/1219427867990036490" title="Discord" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
   </a>
-</div>
-
----
-
-<div>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=700&color=61dafb&background=0D1117&center=true&vCenter=true&width=520&height=60&lines=Code.+Collaborate.+Create.;TypeScript+Enthusiast.;Node.js+Developer.;Clean+Code+Advocate.)](https://git.io/typing-svg)
-
 </div>
 
 ---
@@ -97,3 +69,4 @@
 </p>
 
 </div>
+
