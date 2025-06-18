@@ -24,11 +24,30 @@ I like to keep my code clean and easy to understand.
 
 ---
 
+### 🧰 Skills
+
+- API Development & RESTful services  
+- Microservices Architecture  
+- Database Design & Management (SQL & NoSQL)  
+- Docker & Containerization  
+- Testing & Automation  
+
+---
+
 ### 🔥 About me
 
 I’m focused on building APIs and backend systems that don’t break when things get busy.  
 I like writing code that’s easy to follow and fix later.  
 Always learning new things, trying to get better every day.
+
+---
+
+### 🚀 Recent Projects
+
+- **ALAQ Discord Bot Suite** – A set of advanced Discord bots including ticketing, moderation, and training management, built with TypeScript and Node.js.  
+- **ALAQServers** – A server listing platform focusing on safe, well-moderated communities. Includes automated review and ranking systems.  
+- **Author Website** – Personal site showcasing books, blogs, and integrating Lulu API for ordering physical copies.  
+- **Custom Presence Generator** – A web tool to create custom Discord presence JSON configurations with live preview.  
 
 ---
 
