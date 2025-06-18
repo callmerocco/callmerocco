@@ -26,11 +26,11 @@ I like to keep my code clean and easy to understand.
 
 ### 🧰 Skills
 
-- API Development & RESTful services  
-- Microservices Architecture  
-- Database Design & Management (SQL & NoSQL)  
-- Docker & Containerization  
-- Testing & Automation  
+API Development & RESTful services  
+Microservices Architecture  
+Database Design & Management (SQL & NoSQL)  
+Docker & Containerization  
+Testing & Automation  
 
 ---
 
@@ -42,12 +42,9 @@ Always learning new things, trying to get better every day.
 
 ---
 
-### 🚀 Recent Projects
+### 💬 Quote
 
-- **ALAQ Discord Bot Suite** – A set of advanced Discord bots including ticketing, moderation, and training management, built with TypeScript and Node.js.  
-- **ALAQServers** – A server listing platform focusing on safe, well-moderated communities. Includes automated review and ranking systems.  
-- **Author Website** – Personal site showcasing books, blogs, and integrating Lulu API for ordering physical copies.  
-- **Custom Presence Generator** – A web tool to create custom Discord presence JSON configurations with live preview.  
+> "Code is like humor. When you have to explain it, it’s bad." – Cory House
 
 ---
 
@@ -60,10 +57,10 @@ Always learning new things, trying to get better every day.
 
 ### 💡 What I’m working on now
 
-- Getting better at TypeScript  
-- Making microservices work well together  
-- Checking out serverless stuff  
-- Testing tools that actually make life easier
+Getting better at TypeScript  
+Making microservices work well together  
+Checking out serverless stuff  
+Testing tools that actually make life easier
 
 ---
 
