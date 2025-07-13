@@ -1,1 +1,1 @@
-<img src="https://raw.githubusercontent.com/callmerocco/callmerocco/main/banner.svg" alt="GitHub Banner" width="100%" />
+<img src="https://raw.githubusercontent.com/callmerocco/callmerocco/main/banner.svg" alt="Rocco GitHub Banner" width="100%" />
