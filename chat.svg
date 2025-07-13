@@ -1,2 +1,167 @@
-<svg width="550" height="260" viewBox="0 0 550 260" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Animated iMessage style chat for Jackson Hale"> <style> .bubble { fill: #e9e9eb; } a { fill: #0079ff; cursor: pointer; text-decoration: underline; } text { fill: #242424; font-size: 18px; font-family: 'Inter', sans-serif; letter-spacing: -0.02em; } .emoji { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; } .typing { opacity: 0; animation-fill-mode: forwards; animation-timing-function: ease-in-out; } .typing-1 { animation: fade-in-out 1.5s ease-in-out 0s 1 forwards; } .typing-2 { animation: fade-in-out 1.5s ease-in-out 2s 1 forwards; } .typing-3 { animation: fade-in-out 1.5s ease-in-out 4s 1 forwards; } .typing-4 { animation: fade-in-out 1.5s ease-in-out 6s 1 forwards; } .typing-5 { animation: fade-in-out 1.5s ease-in-out 8s 1 forwards; } .msg { opacity: 0; animation-fill-mode: forwards; animation-timing-function: ease-in-out; } .msg-1 { animation: fade-in 0.4s ease-in-out 1.5s forwards; } .msg-2 { animation: fade-in 0.4s ease-in-out 3.5s forwards; } .msg-3 { animation: fade-in 0.4s ease-in-out 5.5s forwards; } .msg-4 { animation: fade-in 0.4s ease-in-out 7.5s forwards; } .msg-5 { animation: fade-in 0.4s ease-in-out 9.5s forwards; } @keyframes fade-in-out { 0% { opacity: 0; } 25% { opacity: 1; } 75% { opacity: 1; } 100% { opacity: 0; } } @keyframes fade-in { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } } circle { animation-name: blink; animation-duration: 1s; animation-iteration-count: infinite; animation-timing-function: ease-in-out; opacity: 0.5; } circle:nth-child(1) { animation-delay: 0s; } circle:nth-child(2) { animation-delay: 0.2s; } circle:nth-child(3) { animation-delay: 0.4s; } @keyframes blink { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } } @media (prefers-color-scheme: dark) { .bubble { fill: #3b3b3d; } text { fill: #dcdcdc; } a { fill: #0c82f9; } } </style> <!-- Typing bubbles --> <g transform="translate(10, 0)" class="typing typing-1"> <rect x="8" width="70" height="42" rx="21" class="bubble" /> <circle cx="27" cy="21" r="5" fill="#999" /> <circle cx="42" cy="21" r="5" fill="#999" /> <circle cx="57" cy="21" r="5" fill="#999" /> </g> <g transform="translate(10, 50)" class="typing typing-2"> <rect x="8" width="70" height="42" rx="21" class="bubble" /> <circle cx="27" cy="21" r="5" fill="#999" /> <circle cx="42" cy="21" r="5" fill="#999" /> <circle cx="57" cy="21" r="5" fill="#999" /> </g> <g transform="translate(10, 100)" class="typing typing-3"> <rect x="8" width="70" height="42" rx="21" class="bubble" /> <circle cx="27" cy="21" r="5" fill="#999" /> <circle cx="42" cy="21" r="5" fill="#999" /> <circle cx="57" cy="21" r="5" fill="#999" /> </g> <g transform="translate(10, 150)" class="typing typing-4"> <rect x="8" width="70" height="42" rx="21" class="bubble" /> <circle cx="27" cy="21" r="5" fill="#999" /> <circle cx="42" cy="21" r="5" fill="#999" /> <circle cx="57" cy="21" r="5" fill="#999" /> </g> <g transform="translate(10, 200)" class="typing typing-5"> <rect x="8" width="70" height="42" rx="21" class="bubble" /> <circle cx="27" cy="21" r="5" fill="#999" /> <circle cx="42" cy="21" r="5" fill="#999" /> <circle cx="57" cy="21" r="5" fill="#999" /> </g> <!-- Message bubbles --> <g transform="translate(10, 0)" class="msg msg-1 bubble" role="text" aria-label="Hi, I'm Jackson Hale waving hand emoji"> <rect width="270" height="42" rx="18" /> <text x="15" y="27"><tspan class="emoji">👋</tspan> Hi, I'm Jackson Hale</text> </g> <g transform="translate(10, 50)" class="msg msg-2 bubble" role="text" aria-label="Software developer, open source enthusiast, and writer"> <rect width="460" height="42" rx="18" /> <text x="15" y="27">Software developer, open source enthusiast, and writer</text> </g> <g transform="translate(10, 100)" class="msg msg-3 bubble" role="text" aria-label="I build tools, docs, and cool projects on GitHub"> <rect width="430" height="42" rx="18" /> <text x="15" y="27">I build tools, docs, and cool projects on GitHub</text> </g> <g transform="translate(10, 150)" class="msg msg-4 bubble" role="text" aria-label="Reach me on Twitter or by email"> <rect width="400" height="42" rx="18" /> <text x="15" y="27"> Reach me: <a xlink:href="https://twitter.com/JacksonHale" target="_blank" rel="noopener noreferrer">Twitter</a> or email </text> </g> <g transform="translate(10, 200)" class="msg msg-5 bubble" role="text" aria-label="Let's build something awesome together"> <rect width="360" height="42" rx="18" /> <text x="15" y="27">Let's build something awesome together!</text> </g> </svg> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Interactive SVG iMessage Chat - Jackson Hale</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: #f0f0f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  #chat-svg {
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    background: white;
+  }
+  .button-text {
+    cursor: pointer;
+    user-select: none;
+    font-weight: 600;
+  }
+  .button-rect {
+    fill: #0079ff;
+    rx: 15;
+    ry: 15;
+    cursor: pointer;
+    transition: fill 0.3s;
+  }
+  .button-rect:hover {
+    fill: #005fcc;
+  }
+</style>
+</head>
+<body>
 
+<svg id="chat-svg" width="550" height="380" viewBox="0 0 550 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Interactive chat with Jackson Hale">
+  <style>
+    .bubble { fill: #e9e9eb; }
+    text { fill: #242424; font-size: 18px; font-family: 'Inter', sans-serif; letter-spacing: -0.02em; }
+    .emoji { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+  </style>
+
+  <!-- Jackson's message container group -->
+  <g id="messages" transform="translate(10, 10)">
+    <!-- Initial welcome message -->
+    <rect width="350" height="50" rx="18" ry="18" class="bubble" />
+    <text x="15" y="30" class="msg-text"><tspan class="emoji">👋</tspan> Hi, I'm Jackson Hale!</text>
+  </g>
+
+  <!-- Buttons group -->
+  <g id="buttons" transform="translate(10, 300)" aria-label="Reply options">
+    <!-- Button 1 -->
+    <rect id="btn1" class="button-rect" x="0" y="0" width="160" height="40" />
+    <text class="button-text" x="80" y="25" text-anchor="middle" alignment-baseline="middle" pointer-events="none">Who are you?</text>
+
+    <!-- Button 2 -->
+    <rect id="btn2" class="button-rect" x="180" y="0" width="160" height="40" />
+    <text class="button-text" x="260" y="25" text-anchor="middle" alignment-baseline="middle" pointer-events="none">What do you do?</text>
+
+    <!-- Button 3 -->
+    <rect id="btn3" class="button-rect" x="360" y="0" width="160" height="40" />
+    <text class="button-text" x="440" y="25" text-anchor="middle" alignment-baseline="middle" pointer-events="none">Contact info</text>
+  </g>
+</svg>
+
+<script>
+  const svg = document.getElementById('chat-svg');
+  const messagesGroup = document.getElementById('messages');
+  const buttonsGroup = document.getElementById('buttons');
+
+  // Replies Jackson can send based on button pressed
+  const replies = {
+    btn1: "I'm Jackson Hale, a software developer and open source enthusiast.",
+    btn2: "I build cool projects, write docs, and love coding.",
+    btn3: "You can reach me on Twitter @JacksonHale or email me directly."
+  };
+
+  // To keep track of message Y position
+  let nextMessageY = 70;
+
+  function addUserMessage(text) {
+    const userGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
+    userGroup.setAttribute("transform", `translate(10, ${nextMessageY})`);
+
+    const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+    rect.setAttribute("width", "350");
+    rect.setAttribute("height", "50");
+    rect.setAttribute("rx", "18");
+    rect.setAttribute("ry", "18");
+    rect.setAttribute("fill", "#0079ff");
+    userGroup.appendChild(rect);
+
+    const textEl = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    textEl.setAttribute("x", "15");
+    textEl.setAttribute("y", "30");
+    textEl.setAttribute("fill", "white");
+    textEl.setAttribute("font-family", "'Inter', sans-serif");
+    textEl.setAttribute("font-size", "18");
+    textEl.textContent = text;
+    userGroup.appendChild(textEl);
+
+    messagesGroup.appendChild(userGroup);
+
+    nextMessageY += 60;
+  }
+
+  function addJacksonMessage(text) {
+    const jacksonGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
+    jacksonGroup.setAttribute("transform", `translate(10, ${nextMessageY})`);
+
+    const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+    rect.setAttribute("width", "420");
+    rect.setAttribute("height", "50");
+    rect.setAttribute("rx", "18");
+    rect.setAttribute("ry", "18");
+    rect.setAttribute("fill", "#e9e9eb");
+    jacksonGroup.appendChild(rect);
+
+    const textEl = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    textEl.setAttribute("x", "15");
+    textEl.setAttribute("y", "30");
+    textEl.setAttribute("fill", "#242424");
+    textEl.setAttribute("font-family", "'Inter', sans-serif");
+    textEl.setAttribute("font-size", "18");
+    textEl.textContent = text;
+    jacksonGroup.appendChild(textEl);
+
+    messagesGroup.appendChild(jacksonGroup);
+
+    nextMessageY += 60;
+  }
+
+  function onButtonClick(evt) {
+    const id = evt.target.id;
+    if (!id || !replies[id]) return;
+
+    // Add user's clicked message
+    const userText = evt.target.nextSibling.textContent;
+    addUserMessage(userText);
+
+    // Remove buttons while Jackson 'types'
+    buttonsGroup.style.display = 'none';
+
+    // Simulate Jackson "typing" delay
+    setTimeout(() => {
+      addJacksonMessage(replies[id]);
+      // Show buttons again
+      buttonsGroup.style.display = 'block';
+
+      // Scroll chat if needed
+      svg.scrollTop = svg.scrollHeight;
+    }, 1200);
+  }
+
+  // Attach click events to button rects
+  ['btn1', 'btn2', 'btn3'].forEach(id => {
+    const btn = document.getElementById(id);
+    btn.addEventListener('click', onButtonClick);
+  });
+</script>
+
+</body>
+</html>
