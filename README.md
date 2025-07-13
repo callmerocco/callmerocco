@@ -1,1 +1,19 @@
-<img src="https://raw.githubusercontent.com/callmerocco/callmerocco/main/banner.svg" alt="Rocco GitHub Banner" width="100%" />
+<svg width="1000" height="260" viewBox="0 0 1000 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .card { fill: #161b22; stroke: #30363d; stroke-width: 1.5; rx: 16; ry: 16; }
+    .name { fill: #c9d1d9; font-size: 40px; font-family: 'Segoe UI', 'SF Pro', sans-serif; font-weight: bold; }
+    .tagline { fill: #8b949e; font-size: 20px; font-family: 'Segoe UI', sans-serif; }
+  </style>
+
+  <!-- Banner rectangle with rounded corners -->
+  <rect class="card" x="40" y="40" width="920" height="180" rx="16" ry="16"/>
+
+  <!-- GitHub Logo -->
+  <svg x="70" y="100" width="60" height="60" viewBox="0 0 24 24" fill="#c9d1d9" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 .5C5.65.5.5 5.66.5 12c0 5.09 3.29 9.4 7.86 10.94.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2.01-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.7.08-.7 1.17.08 1.79 1.21 1.79 1.21 1.04 1.78 2.73 1.27 3.4.97.11-.75.41-1.27.74-1.56-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.3 1.2-3.11-.12-.29-.52-1.47.11-3.07 0 0 .97-.31 3.17 1.19.92-.26 1.91-.39 2.9-.39s1.98.13 2.9.39c2.2-1.5 3.17-1.19 3.17-1.19.63 1.6.23 2.78.11 3.07.75.81 1.2 1.85 1.2 3.11 0 4.43-2.7 5.4-5.28 5.68.42.36.8 1.09.8 2.2 0 1.58-.01 2.85-.01 3.24 0 .31.21.68.8.56A10.52 10.52 0 0023.5 12C23.5 5.66 18.34.5 12 .5z"/>
+  </svg>
+
+  <!-- Text -->
+  <text class="name" x="150" y="135">Rocco</text>
+  <text class="tagline" x="150" y="170">Open-source is the backbone of smarter systems.</text>
+</svg>
