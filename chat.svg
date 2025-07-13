@@ -5,7 +5,7 @@
   fill="none"
   xmlns="http://www.w3.org/2000/svg"
   role="img"
-  aria-label="Interactive chat interface with Jackson Hale and clickable buttons"
+  aria-label="Chat interface with Jackson Hale"
 >
   <style>
     .bubble {
@@ -35,18 +35,10 @@
       user-select: none;
     }
     .button {
-      cursor: pointer;
       fill: #0079ff;
       rx: 15;
       ry: 15;
-      transition: fill 0.3s;
       filter: drop-shadow(0 1px 1px rgba(0,0,0,0.15));
-    }
-    .button:hover {
-      fill: #005fcc;
-    }
-    a {
-      text-decoration: none;
     }
   </style>
 
@@ -74,60 +66,38 @@
   <rect x="10" y="290" width="430" height="50" class="bubble" />
   <text x="25" y="322" class="text">Tools, docs, and cool projects on GitHub.</text>
 
-  <!-- Buttons at bottom -->
-
-  <!-- Twitter button -->
-  <a
-    xlink:href="https://twitter.com/JacksonHale"
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="Visit Jackson's Twitter"
+  <!-- Buttons (non-clickable visuals) -->
+  <rect x="10" y="350" width="160" height="40" class="button" />
+  <text
+    x="90"
+    y="375"
+    class="text user-text"
+    text-anchor="middle"
+    alignment-baseline="middle"
+    pointer-events="none"
+    >Twitter</text
   >
-    <rect x="10" y="350" width="160" height="40" class="button" />
-    <text
-      x="90"
-      y="375"
-      class="text user-text"
-      text-anchor="middle"
-      alignment-baseline="middle"
-      pointer-events="none"
-      >Twitter</text
-    >
-  </a>
 
-  <!-- Email button -->
-  <a
-    xlink:href="mailto:jackson@example.com"
-    aria-label="Email Jackson Hale"
+  <rect x="195" y="350" width="160" height="40" class="button" />
+  <text
+    x="275"
+    y="375"
+    class="text user-text"
+    text-anchor="middle"
+    alignment-baseline="middle"
+    pointer-events="none"
+    >Email</text
   >
-    <rect x="195" y="350" width="160" height="40" class="button" />
-    <text
-      x="275"
-      y="375"
-      class="text user-text"
-      text-anchor="middle"
-      alignment-baseline="middle"
-      pointer-events="none"
-      >Email</text
-    >
-  </a>
 
-  <!-- GitHub button -->
-  <a
-    xlink:href="https://github.com/JacksonHale"
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="Visit Jackson's GitHub"
+  <rect x="380" y="350" width="160" height="40" class="button" />
+  <text
+    x="460"
+    y="375"
+    class="text user-text"
+    text-anchor="middle"
+    alignment-baseline="middle"
+    pointer-events="none"
+    >GitHub</text
   >
-    <rect x="380" y="350" width="160" height="40" class="button" />
-    <text
-      x="460"
-      y="375"
-      class="text user-text"
-      text-anchor="middle"
-      alignment-baseline="middle"
-      pointer-events="none"
-      >GitHub</text
-    >
-  </a>
 </svg>
+
